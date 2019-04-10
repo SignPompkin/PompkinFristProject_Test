@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.itsoftware.accountbookmanagementsystem.Activity.ManagementActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="35">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEF1F1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableTop="@drawable/sort_detail"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="明细" />
+
+        <TextView
+            android:id="@+id/tv_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableTop="@drawable/sort_chart"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="图表" />
+
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableTop="@drawable/tabbar_icon2_1"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/tv_wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableTop="@drawable/sort_wallet"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="钱包" />
+
+        <TextView
+            android:id="@+id/tv_community"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableTop="@drawable/sort_community"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="社区" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
